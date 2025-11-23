@@ -1,11 +1,22 @@
+
 import logo from '/logo.png'
 
 export default function Home() {
   return (
-    <div className='flex flex-col items-center justify-center min-h-screen py-2 '>
-      <img src={logo} alt='InteropSafe Logo' width={350} />
-      <h1 className='font-timmana'>Create an InteropSAFE</h1>
-      <h3 className='font-tilt-neon'>Same Safe Address on multiple chains with one click</h3>
+    <div className='min-h-screen bg-black text-white flex flex-col'>
+      <main className='flex-1 flex flex-col items-center justify-center'>
+        <img
+          src={logo}
+          alt='InteropSAFE Logo'
+          className='w-[500px] max-w-full mb-10'
+        />
+        <div className='text-7xl font-timmana text-center'>
+          Create an InteropSAFE
+        </div>
+        <p className='text-lg text-neutral-300 font-tilt-neon text-center'>
+          Same multisig address on multiple chains with one click
+        </p>
+      </main>
     </div>
   )
 }
