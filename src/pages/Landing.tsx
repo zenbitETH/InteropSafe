@@ -1,4 +1,18 @@
 import { useState } from 'react'
+import { createEilAccount } from '../lib/eilAccount'
+import { getSdk, USDC } from '../lib/eilSdk' 
+
+async function handleSendBatch() {
+  try {
+    const { account } = await createEilAccount()
+    const sdk = await getSdk()
+
+    // ...build CrossChainBuilder, add TransferAction per recipient, etc.
+  } catch (err) {
+    console.error(err)
+    // show toast / error in UI
+  }
+}
 
 type Recipient = {
   address: string
