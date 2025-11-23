@@ -57,7 +57,3 @@ InteropSAFE is a **work in progress** prototype:
 
 - ETHGlobal showcase: https://ethglobal.com/showcase/interopsafe-6mos8
 - EIL docs: https://docs.ethereuminteroplayer.com/sdk/basics.html
-
----
-
-Built by **Habacuc / zenbit.eth** as an exploration of interoperable multisigs and smoother onchain treasury UX.
