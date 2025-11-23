@@ -19,7 +19,7 @@ import {
 
 import { AmbireMultiChainSmartAccount } from '@eil-protocol/accounts'
 
-import { getDeploymentChains, wagmiConfig } from '../wagmiConfig.ts'
+import { getDeploymentChains, wagmiConfig } from '../../config/wagmiConfig.ts'
 import { BALANCE_PLACEHOLDER } from '../../utils/constants.ts'
 import {
   abi
