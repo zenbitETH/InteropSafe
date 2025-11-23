@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Timmana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Timmana&display=swap");
+@import "tailwindcss";
+
+
+@theme {
+  --font-timmana: "Timmana", sans-serif;
+  --font-tilt-neon: "Tilt Neon", cursive;
+}
+
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -5,7 +16,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* background-color: #242424; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
